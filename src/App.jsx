@@ -11,11 +11,9 @@ const API_URL = "https://lnxm4j4lh7.execute-api.eu-north-1.amazonaws.com/analyze
 // =============================================
 const MAX_FILE_SIZE_MB = 5;
 const MAX_FILE_SIZE_BYTES = MAX_FILE_SIZE_MB * 1024 * 1024;
-const ALLOWED_TYPES = [
-  "application/pdf",
-  "text/plain",
-];
+
 const ALLOWED_EXTENSIONS = [".pdf", ".txt"];
+
 
 const LOADING_MESSAGES = [
   "Reading your resume...",
