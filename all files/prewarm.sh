@@ -1,7 +1,4 @@
-#!/bin/bash
-# Pre-warm Lambda before recording demo video
-# Run this 2-3 minutes before you start recording
-# Usage: bash prewarm.sh YOUR_API_URL
+
 
 API_URL="${1:-https://rnqdw8rrbg.execute-api.us-east-1.amazonaws.com/analyze-resume}"
 
