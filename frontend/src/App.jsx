@@ -1,7 +1,10 @@
 import React, { useState, useEffect, useCallback } from "react";
 import "./App.css";
 
-const API_URL = "https://rnqdw8rrbg.execute-api.us-east-1.amazonaws.com/analyze-resume"; 
+// const API_URL = "https://rnqdw8rrbg.execute-api.us-east-1.amazonaws.com/analyze-resume"; 
+
+const API_URL = "https://rnqdw8rrbg.execute-api.us-east-1.amazonaws.com/analyze-resume";
+
 
 const MAX_FILE_SIZE_MB = 5;
 const MAX_FILE_SIZE_BYTES = MAX_FILE_SIZE_MB * 1024 * 1024;
