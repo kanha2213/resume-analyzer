@@ -1,0 +1,10 @@
+{
+  "description": "Analyze and enhance your resume with detailed feedback and actionable recommendations, empowering students and job seekers to improve their job prospects.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
